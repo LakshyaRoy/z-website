@@ -21,7 +21,7 @@ const HeroSection = () => {
             </p>
           </Fade>
           <Fade cascade delay={200} right>
-            <p className="text-white font-bold text-[3rem] w-[50%] leading-[2.5rem] font-HelveticaNowMTTextBold">
+            <p className="text-[whitesmoke] font-bold text-[3rem] w-[50%] leading-[2.5rem] font-HelveticaNowMTTextBold">
               DISCOUNTS 50% OFF
             </p>
           </Fade>
@@ -32,8 +32,8 @@ const HeroSection = () => {
           </Fade>
         </div>
         <Slide delay={100} duration={1000}>
-          <div className=" border-2 px-4 py-2 border-r-[#FF7E0D] ">
-            <button className=" text-[12px] text-white font-HelveticaNowMTTextBold ">
+          <div className=" border-2 px-4 py-2 border-r-[#FF7E0D] hover:border-[#FF7E0D] transition  delay-150 cursor-pointer">
+            <button className=" text-[12px] text-[whitesmoke] font-HelveticaNowMTTextBold hover:  ">
               SHOP NOW
             </button>
           </div>
